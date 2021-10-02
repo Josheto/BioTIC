@@ -1,0 +1,45 @@
+<html>
+<head>
+    <titule>
+        <center> 
+            <h1>VENTA DE PRODUCTOS</h1>
+        </center>
+    </titule>
+</head>>
+<body>
+    <form>
+        <input type="submit" name="boton1" value="Ingresar Nuevo Producto">
+        <input type="button" onclick="alerta()" value="GuardarProductoNuevo">
+        <input type="submit" name="boton2" value="Editar Producto">
+        <input type="button" onclick="editado()" value="GuardarEdicion">
+        
+    </form>
+    <br><br>
+    <br><br>
+    <form>
+        <label for"nombre"=>Nombre Del Producto:</label>
+        <input type="text" placeholder="Nombre Del Producto" id=nombre>
+        <br><br>
+        <label for"codigo"=>Codigo Del Producto:</label>
+        <input type="number" placeholder="Codigo del Producto" id=codigo>
+        <br><br>
+        <label for"cantidad"=>Cantidad Del Producto:</label>
+        <input type="number" placeholder="Cantidad Del Producto" id=cantidad>
+        <br><br>
+        <label for"Descripcion"=>Descripcion Del Producto:</label>
+        <input type="text" placeholder="Descripcion Del Producto" id=Descripcion>
+    </form>
+
+    <script>
+        function alerta(){
+            alert("producto nuevo guadado con EXITO!");
+        }
+
+        function editado(){
+            alert("producto editado con EXITO!");
+        }
+        </script>
+
+
+ </body>
+</html>
