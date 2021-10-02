@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> BIOTICs</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">BIOTICs</a>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Ventas</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Usuarios</a></li>
+                </ul>
+            </nav>
+         </div>
+    </header>
+<h1><center>REGISTRAR VENTA</center></h1>
+<section>
+    <form action="Registro_Venta" method="post">
+    <ul>
+        <li>
+            <label for="Nombre_Cliente">Nombre Cliente:</label>
+            <input type="text" id="Nombre_Cliente" name="nombre_cliente">
+        </li>
+        <li>
+            <label for="Id_Cliente">ID Cliente:</label>
+            <input type="numero" id="Id_Cliente" name="id_cliente">
+        </li>
+        <li>
+            <label for="telefono">telefono:</label>
+            <input type="numero" id="telefono" name="telefono_cliente">
+        </li>
+        <li>
+            <label for="Correo">Correo electrónico:</label>
+            <input type="email" id="mail" name="correo_cliente">
+        </li>
+        <li>
+            <label for="Correo">Correo electrónico:</label>
+            <input type="email" id="mail" name="correo_cliente">
+        </li>
+        <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </li>
+        </ul>
+    </form>
+</section>
+<section>
+<center><table id ="Venta">
+<div class="compra">
+    <thead>
+        <td><div class="Producto">
+        <p>Producto</p>
+            <select name="Producto">
+                <option value="1">Producto 1</option> 
+                <option value="2">Producto 2</option> 
+                <option value="3">Producto 3</option>
+                <option value="10">Producto 4</option> 
+                <option value="11">Producto 5</option> 
+                <option value="12">Producto 6</option> 
+            </select>   
+        </div></td>
+        <td><div class="Precio_Unitario">
+        <p>Precio</p>
+            <input type="text" id="Precio" class="caja">
+        </div></td>
+        <td><div class="Unidades">
+        <p>Unidades</p>
+            <input type="text" id="Precio" class="caja">
+        </div></td>
+        </thead>
+        </div>
+    </table></center>
+    <button type= "button" name = "button" onclick= "agregar()">Agregar Producto</button>
+        <center><table class= Resumen_Compra>
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precios</th>
+            <th>Cantidades</th>
+            <th>Subtotal</th>
+         </tr>
+         </thead>
+         </table></center>
+</section>
+       
+</body>
+</html>

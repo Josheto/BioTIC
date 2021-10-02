@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: : 1.3em;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.container {
+    width: 85%;
+    max-width: : 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    letter-spacing: 5px;
+    font-size: 2.2em;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: rgb(141, 104, 104);
+}
+
+.boton_ventas {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.contenedor_boton_venta {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white
+}
+
+.ccontenedor_boton_venta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Buscar {
+    margin: 1.6em auto;
+    width: 85%;
+    height: 80%;
+}
+
+.Historico_Ventas {
+    width: 90%;
+    background: #9dc2e7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.Historico_Ventas {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.Historico_de_venta {
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.a {
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ventan_emergente {
+    width: 40%;
+    background: #9dc2e7;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    left: 30%;
+    top: 25%;
+    display: none;
+}
+
+
+}
